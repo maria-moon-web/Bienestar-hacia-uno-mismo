@@ -79,7 +79,6 @@ button {
     font-size: 1em; /* Tamaño de fuente */
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
     margin: 10px 0; /* Espaciado entre botones */
-    transition: background-color 0.3s; /* Transición suave para el color de fondo */
 }
 
 /* Efecto al pasar el mouse sobre los botones */
@@ -114,3 +113,39 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0,0);}
+
+    footer{
+        background-color: #617c6d36;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .footer-content div {
+        margin: 10px;
+    }
+    
+    .footer-content h3 {
+        margin-bottom: 10px;
+    }
+    
+    .footer-content a {
+        color: #93dba3;
+        text-decoration: none;
+    }
+    
+    .footer-content a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer-bottom {
+        margin-top: 20px;
+        border-top: 1px solid #7ea08386;
+        padding-top: 10px;
+    }
